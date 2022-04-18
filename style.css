@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.cryto-value-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.crypto-value-detailed {
+  width: 79%;
+  padding: 1%;
+}
+
+.crypto-value-detailed ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.crypto-value-detailed ul li span, .crypto-value-detailed ul li a {
+  font-size: 12px;
+}
+
+.language-currency {
+  width: 19%;
+  padding: 1%;
+}
+
+.language-currency ul li {
+  display: inline-block;
+  font-size: 12px;
+}
