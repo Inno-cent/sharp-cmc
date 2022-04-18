@@ -28,3 +28,16 @@ const getTodoItems = async () => {
     );
     const table = document.getElementById("table-inu");
     spinner.style.display = "none";
+const value = response.data.data;
+    value.forEach((element) => {
+      const { name, cmc_rank, circulating_supply, symbol } = element;
+
+      const a = `<tr>
+            <td class="first-list-table diff-first-list-tle">
+              <div><i class="fa-solid fa-star-of-david"></i></div>
+              <div>${cmc_rank}</div>
+            </td>
+            <td class="camp-name diff-camp-name">
+             <img src="./images/1027.png" alt="" />
+              <div class="name-class">
+                <h3>${name}</h3>
