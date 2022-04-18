@@ -28,7 +28,7 @@ const getTodoItems = async () => {
     );
     const table = document.getElementById("table-inu");
     spinner.style.display = "none";
-const value = response.data.data;
+    const value = response.data.data;
     value.forEach((element) => {
       const { name, cmc_rank, circulating_supply, symbol } = element;
 
@@ -70,3 +70,11 @@ const value = response.data.data;
               <div></div>
             </td>
           </tr>
+          `;
+      //   table.appendChild(a);
+      table.innerHTML += a;
+    });
+  } catch (errors) {
+    console.error(errors);
+  }
+};
