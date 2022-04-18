@@ -54,3 +54,19 @@ const value = response.data.data;
               <div><i class="fa-solid fa-caret-down"></i></div>
               <p>${element.quote.USD.percent_change_7d.toFixed(2)}</p>
             </td>
+                        <td class="mmds">$${element.quote.USD.market_cap.toFixed()}</td>
+            <td class="diff-td mmds">
+              <h2>${element.quote.USD.volume_24h.toFixed()}</h2>
+              <h3>859,575 BTC</h3>
+            </td>
+            <td class="mmds">
+              <h2>${circulating_supply.toFixed()}</h2>
+              <div>
+                <div></div>
+              </div>
+            </td>
+            <td class="mmds">
+              <div class="bad-graph"><img src="./images/1.svg" alt=""></div>
+              <div></div>
+            </td>
+          </tr>
