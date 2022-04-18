@@ -85,3 +85,5 @@ const onCall = () => {
     "https://pro-api.coinmarketcap.com/v1/cryptocurrency/trending/gainers-losers"
   );
 };
+
+onCall();
