@@ -41,3 +41,16 @@ const value = response.data.data;
              <img src="./images/1027.png" alt="" />
               <div class="name-class">
                 <h3>${name}</h3>
+                 <p class="coin--shortname">${symbol}</p>
+              </div>
+              <span>Buy</span>
+            </td>
+            <td class="mmds">$ ${element.quote.USD.price.toFixed(2)}</td>
+            <td class="drop mmds">
+              <div><i class="fa-solid fa-caret-down"></i></i></div>
+              <p>${element.quote.USD.percent_change_24h.toFixed(2)}</p>
+            </td>
+            <td class="drop mmds">
+              <div><i class="fa-solid fa-caret-down"></i></div>
+              <p>${element.quote.USD.percent_change_7d.toFixed(2)}</p>
+            </td>
