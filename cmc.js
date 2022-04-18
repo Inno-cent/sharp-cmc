@@ -78,3 +78,6 @@ const getTodoItems = async () => {
     console.error(errors);
   }
 };
+getTodoItems();
+
+const onCall = () => {
